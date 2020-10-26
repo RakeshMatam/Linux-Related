@@ -1,0 +1,37 @@
+To add Repo for JAVA
+----------------------
+sudo add-apt-repository ppa:linuxprising/java
+---------------------------------------------
+Click on ENTER to continue
+--------------------------
+sudo apt update
+---------------
+sudo apt install oracle-java15-installer -y (or) sudo apt install oracle-java15.0.1-installer -y
+------------------------------------------------------------------------------------------------
+After running the above command a Package Configuration window is opened 
+Click on OK to continue and Press YES 
+java will be installed 
+----------------------
+to check the version 
+--------------------
+java --version
+--------------------
+the Output will be shown as :
+-----------------------------
+java 15.0.1 2020-10-20
+Java(TM) SE Runtime Environment (build 15.0.1+9-18)
+Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
+--------------------------------------------------------------------------
+After installing setting up the Environmental Variables for java
+----------------------------------------------------------------
+sudo update-alternatives --config java
+--------------------------------------
+https://www.youtube.com/watch?v=ogWKP9Lm-Qo
+---------------------------------------
+follow the above link in Youtube
+
+/usr/lib/jvm/java-15-oracle (or) /usr/lib/jvm/java-15-oracle/bin/java
+
+JAVA_HOME="/usr/lib/jvm/java-15-oracle/bin/java"  (or) JAVA_HOME="/usr/lib/jvm/java-15-oracle"
+
+
