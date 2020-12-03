@@ -1,5 +1,7 @@
 To add Repo for JAVA
 ----------------------
+sudo apt install software-properties-common
+-------------------------------------------
 sudo add-apt-repository ppa:linuxprising/java
 ---------------------------------------------
 Click on ENTER to continue
