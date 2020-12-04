@@ -32,7 +32,18 @@ https://www.youtube.com/watch?v=ogWKP9Lm-Qo
 ---------------------------------------
 follow the above link in Youtube
 
+sudo gedit /etc/environment
+
+copy the path and paste and then save 
+
 /usr/lib/jvm/java-15-oracle (or) /usr/lib/jvm/java-15-oracle/bin/java
 
 JAVA_HOME="/usr/lib/jvm/java-15-oracle/bin/java"  (or) JAVA_HOME="/usr/lib/jvm/java-15-oracle"
+
+source /etc/environment
+
+echo $JAVA_HOME 
+
+you will see the result like 
+/usr/lib/jvm/java-15-oracle
 
